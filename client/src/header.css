@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.Container img{
+    width: 50vw;
+}
+
+.loginDiv{
+    margin-left: 2rem;
+    padding: 12px;
+    box-shadow: 0px 0px 11px #9caab5;
+}
+
+.textCenter{
+    font-family: 'Roboto', serif;
+    padding-top: 4rem;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 0px 0px 4px #666464;
+}

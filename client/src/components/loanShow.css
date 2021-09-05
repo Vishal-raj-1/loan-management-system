@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+.cardContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.header{
+    text-align: center;
+    margin: 3rem 0px;
+    font-size: 3rem;
+}
+.cardContainer .card{
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 1px 1px 7px 2px #c3c0bd;
+}
+.cardContainer .description{
+    margin-bottom: 2rem;
+    font-family: 'Roboto', serif;
+    color: rgb(107, 106, 104);
+}
+.backtoList{
+    text-align: center;
+}
+.cardContainer strong{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: black;
+}
